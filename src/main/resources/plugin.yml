@@ -1,0 +1,4 @@
+name: TeamReport
+version: '${project.version}'
+main: org.teamreport.TeamReport
+api-version: '1.19'
