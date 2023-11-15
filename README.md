@@ -5,6 +5,8 @@ Require [BetterTeams](https://www.spigotmc.org/resources/better-teams.17129/) , 
 
 Player activity stats:
 > Report activity to a discord channel ,which can be specified in config ,everyday.
+> 
 > Manual report : /manualreport
+> 
 > Clear today's playertime data : /cleartoday time
 
