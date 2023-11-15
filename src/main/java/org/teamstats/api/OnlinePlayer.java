@@ -22,7 +22,8 @@ public class OnlinePlayer {
     public static HashMap<UUID, OnlinePlayer> players = new HashMap<>();
 
     public static void quitAll(){
-        for (Map.Entry<UUID, OnlinePlayer> entry : players.entrySet()){
+        HashMap<UUID, OnlinePlayer> playersClone = (HashMap)(players.clone());
+        for (Map.Entry<UUID, OnlinePlayer> entry : playersClone.entrySet()){
             entry.getValue().playerQuit();
         }
     }
