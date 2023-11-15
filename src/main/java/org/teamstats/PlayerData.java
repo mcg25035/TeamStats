@@ -37,6 +37,7 @@ public class PlayerData {
             if (team != null){
                 return new PlayerData(team, playerUUID, onlineTime);
             }
+            return new PlayerData(null, playerUUID, onlineTime);
         }catch (Exception ignored){}
         return null;
     }
@@ -73,7 +74,9 @@ public class PlayerData {
 
         for (UUID i : players){
             PlayerData data = uuidToPlayerData(i, null);
-            result.add(data);
+            if (data != null){
+                result.add(data);
+            }
         }
 
         return result;

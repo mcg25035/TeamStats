@@ -42,6 +42,9 @@ public class Embed {
             players += "\n";
             allOnlineTime += i.onlineSeconds;
             allOnlineTime += "\n";
+            if (i.team == null){
+                continue;
+            }
             teams += i.team.getName();
             teams += "\n";
         }
