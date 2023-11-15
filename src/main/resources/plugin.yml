@@ -1,4 +1,6 @@
-name: TeamReport
+name: TeamStats
 version: '${project.version}'
-main: org.teamreport.TeamReport
+main: org.teamstats.TeamStats
 api-version: '1.19'
+depend: [BetterTeams,CommandAPI]
+softdepend: [DiscordSRV]

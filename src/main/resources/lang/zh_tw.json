@@ -1,8 +1,12 @@
 {
-  "player": "玩家";
+  "player": "玩家",
   "reportEmbedFooter": "公會數值統計插件",
   "reportEmbedTitle": "上線時間統計報表",
   "yesterdayOnlinePlayersData": "昨天的報表",
+  "todayOnlinePlayersData": "今天的報表",
   "team": "公會",
-  "onlineTime": "上線時間(秒)"
+  "onlineTime": "上線時間(秒)",
+  "reportTimeSentSuccessfully": "上線時間報表成功發送!",
+  "reportTimeSentFailed": "上線時間報表無法正常發送，請檢查伺服器後台!",
+  "reportTimeClearSuccessfully": "上線時間清除成功!"
 }

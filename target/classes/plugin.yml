@@ -1,4 +1,6 @@
-name: TeamReport
-version: '0.2.2'
-main: org.teamreport.TeamReport
+name: TeamStats
+version: '0.1.0'
+main: org.teamstats.TeamStats
 api-version: '1.19'
+depend: [BetterTeams,CommandAPI]
+softdepend: [DiscordSRV]

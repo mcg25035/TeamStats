@@ -3,6 +3,10 @@
   "reportEmbedFooter": "TeamStats",
   "reportEmbedTitle": "Team Member Online Activity Report",
   "yesterdayOnlinePlayersData": "Yesterday's Playtime Data:",
+  "todayOnlinePlayersData": "Today's Playtime Data:",
   "team": "team",
-  "onlineTime": "online time(s)"
+  "onlineTime": "online time(s)",
+  "reportTimeSentSuccessfully": "Online activity report message sent successfully!",
+  "reportTimeSentFailed": "Online activity report message sent failed, please check messages in server console!",
+  "reportTimeClearSuccessfully": "Online activity data cleared successfully!"
 }

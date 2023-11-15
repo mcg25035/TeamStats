@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org</groupId>
-    <artifactId>TeamReport</artifactId>
-    <version>0.2.2</version>
+    <artifactId>TeamStats</artifactId>
+    <version>0.1.0</version>
     <packaging>jar</packaging>
 
-    <name>TeamReport</name>
+    <name>TeamStats</name>
 
     <properties>
         <java.version>1.8</java.version>
