@@ -59,6 +59,9 @@ public class PlayerData {
             for (TeamPlayer ii : teamPlayers){
                 UUID playerUUID = ii.getPlayer().getUniqueId();
                 PlayerData data = uuidToPlayerData(playerUUID, i);
+                if (data == null){
+                    continue;
+                }
                 players.remove(playerUUID);
                 if (data.onlineSeconds > 0){
                     result.add(data);
