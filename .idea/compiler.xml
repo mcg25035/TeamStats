@@ -9,8 +9,5 @@
         <module name="TeamStats" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="SkyStarModify" target="16" />
-    </bytecodeTargetLevel>
   </component>
 </project>

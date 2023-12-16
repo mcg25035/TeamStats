@@ -1,12 +1,13 @@
-/home/codingbear/IdeaProjects/TeamStats/src/main/java/org/teamstats/util/NoExcept.java
-/home/codingbear/IdeaProjects/TeamStats/src/main/java/org/teamstats/Events.java
 /home/codingbear/IdeaProjects/TeamStats/src/main/java/org/teamstats/PlayerData.java
 /home/codingbear/IdeaProjects/TeamStats/src/main/java/org/teamstats/api/Team.java
 /home/codingbear/IdeaProjects/TeamStats/src/main/java/org/teamstats/commands/ManualReportCommand.java
-/home/codingbear/IdeaProjects/TeamStats/src/main/java/org/teamstats/api/Embed.java
 /home/codingbear/IdeaProjects/TeamStats/src/main/java/org/teamstats/util/Files.java
-/home/codingbear/IdeaProjects/TeamStats/src/main/java/org/teamstats/LangResource.java
 /home/codingbear/IdeaProjects/TeamStats/src/main/java/org/teamstats/commands/ClearTodayCommand.java
 /home/codingbear/IdeaProjects/TeamStats/src/main/java/org/teamstats/util/Time.java
 /home/codingbear/IdeaProjects/TeamStats/src/main/java/org/teamstats/api/OnlinePlayer.java
+/home/codingbear/IdeaProjects/TeamStats/src/main/java/org/teamstats/util/NoExcept.java
+/home/codingbear/IdeaProjects/TeamStats/src/main/java/org/teamstats/Events.java
+/home/codingbear/IdeaProjects/TeamStats/src/main/java/org/teamstats/api/Embed.java
+/home/codingbear/IdeaProjects/TeamStats/src/main/java/org/teamstats/LangResource.java
+/home/codingbear/IdeaProjects/TeamStats/src/main/java/org/teamstats/util/WithExcept.java
 /home/codingbear/IdeaProjects/TeamStats/src/main/java/org/teamstats/TeamStats.java

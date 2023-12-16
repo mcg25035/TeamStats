@@ -1,5 +1,7 @@
 org/teamstats/LangResource$dict.class
+org/teamstats/util/WithExcept$RunnableWithException.class
 org/teamstats/util/Files.class
+org/teamstats/util/WithExcept$ReturnFunctionWithException.class
 org/teamstats/api/Embed.class
 org/teamstats/commands/ManualReportCommand.class
 org/teamstats/util/NoExcept$RunnableWithException.class
@@ -13,3 +15,4 @@ org/teamstats/TeamStats.class
 org/teamstats/LangResource.class
 org/teamstats/util/NoExcept$ReturnFunctionWithException.class
 org/teamstats/PlayerData.class
+org/teamstats/util/WithExcept.class

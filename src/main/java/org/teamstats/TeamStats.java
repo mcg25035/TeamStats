@@ -13,6 +13,7 @@ import org.teamstats.api.OnlinePlayer;
 import org.teamstats.util.Files;
 import org.teamstats.util.NoExcept;
 import org.teamstats.util.Time;
+import org.teamstats.util.WithExcept;
 import org.yaml.snakeyaml.Yaml;
 
 import java.io.File;
@@ -102,17 +103,15 @@ public final class TeamStats extends JavaPlugin {
 
         this.scheduler = Bukkit.getScheduler().runTaskTimer(this, () -> {
             int today = Time.dayOfMonth(Instant.now());
-            if (today != this.day){
-                String timeStamp = Timestamp.from(Instant.now()).toString();
-                NoExcept.run(() -> Files.writeFile(timeData, timeStamp));
-                day = today;
-                try {
-                    Embed.sendEmbed(PlayerData.getToday(), false);
-                }
-                catch (Exception e){
-                    e.printStackTrace();
-                }
+            if (today == this.day){
+                return;
             }
+            String timeStamp = Timestamp.from(Instant.now()).toString();
+            NoExcept.run(() -> Files.writeFile(timeData, timeStamp));
+            day = today;
+            WithExcept.run(() -> Embed.sendEmbed(PlayerData.getToday(), false));
+            clearTimeData();
+
         }, 300, 20);
 
         this.scheduler = Bukkit.getScheduler().runTaskTimer(this, () -> {
